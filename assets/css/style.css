@@ -2,20 +2,17 @@
     font-family: Avenir, sans-serif;
 }
 .navbar {
-    background-color: transparent;
     border: none;
     color: #ffffff;
     display: inline-block;
     padding-top: 30px;
     font-size: 25px;
     text-decoration: none;
+    background-color: #000000;
+    padding-bottom: 40px;
 }
 .navbar:hover {
     color: grey;
-}
-.navbar {
-    background-color: #000000;
-    padding-bottom: 40px;
 }
 body {
     background-color: #2e2e2e;
@@ -31,7 +28,6 @@ h1 {
     font-size: 60px;
 }
 h2 {
-    margin-left: 25px;
     margin-bottom: 30px;
     color: grey;
 }
@@ -73,4 +69,38 @@ label {
 }
 .page-footer p {
     font-size: 16px!important;
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        font-size: 15px;
+    }
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    h2 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    p {
+        padding: 5px 10px 5px 10px;
+        font-size: 16px;
+    }
+    iframe {
+        height: 300px;     
+    }
+    li {
+        font-size: 16px;  
+    }
+    .page-footer {
+        margin-top: 20px;
+        font-size: 14px!important;
+    }
+    .page-footer h5 {
+        font-size: 14px!important;
+    }
+    .page-footer p {
+        font-size: 14px!important;
+    }
 }
